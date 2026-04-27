@@ -5,9 +5,12 @@ def double_number(func):
         return func(*args)*2
     return wrapper
 
+
 @double_number
 def sum_numbers(*args):
-    s = 0
+    ss = 0
     for arg in args:
-        s+=arg
-    return s
+        ss+=arg
+    return ss
+
+print(sum_numbers(1,5,6))
