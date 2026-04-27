@@ -14,3 +14,5 @@ def sum_numbers(*args):
     return ss
 
 print(sum_numbers(1,5,6))
+
+x = 7
